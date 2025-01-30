@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arihant Sales - Complete Product Catalog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="bg-gray-50">
+    
+    <nav class="bg-gradient-to-r from-blue-900 to-blue-800 text-white sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold">Arihant Sales</div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#home" class="px-3 py-2 rounded-md hover:bg-blue-700 transition duration-300">Home</a>
+                        <a href="#about" class="px-3 py-2 rounded-md hover:bg-blue-700 transition duration-300">About</a>
+                        <a href="#products" class="px-3 py-2 rounded-md hover:bg-blue-700 transition duration-300">Products</a>
+                        <a href="#contact" class="px-3 py-2 rounded-md hover:bg-blue-700 transition duration-300">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav> 
+
+   
+
+    <!-- Hero Section -->
+    <div class="bg-gradient-to-r from-blue-900 to-blue-800 text-white py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-5xl font-bold mb-6">Your one-stop shop for top-quality rubber parts</h1>
+                <p class="text-xl mb-10 text-blue-100">Your Trusted Partner Since 2005</p>
+                <a href="#products" class="bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">View Our Catalog</a>
+            </div>
+        </div>
+    </div>
+
+    <section id="about" class="py-20 bg-gradient-to-b from-white to-blue-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-16 text-blue-900">About Us</h2>
+            
+            <!-- Main About Content -->
+            <div class="bg-white p-8 rounded-xl shadow-xl border-l-4 border-blue-900 mb-16">
+                <p class="text-gray-700 text-lg leading-relaxed">
+                    Established in 2005, Arihant Sales has grown to become Gujarat's premier wholesaler of rubber machinery parts. 
+                    Based in the industrial hub of Ahmedabad, we take pride in delivering premium quality components that power 
+                    India's manufacturing sector. Our commitment to excellence and customer satisfaction has made us a trusted 
+                    partner for businesses across the region.
+                </p>
+            </div>
+    
+            <!-- Stats Section -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <div class="text-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-blue-900 text-5xl font-bold mb-3">15+</div>
+                    <div class="text-gray-700 text-lg">Years of Excellence</div>
+                </div>
+                <div class="text-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-blue-900 text-5xl font-bold mb-3">100+</div>
+                    <div class="text-gray-700 text-lg">Product Range</div>
+                </div>
+                <div class="text-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-blue-900 text-5xl font-bold mb-3">1000+</div>
+                    <div class="text-gray-700 text-lg">Satisfied Clients</div>
+                </div>
+            </div>
+    
+            <!-- Why Choose Us Section -->
+            <div class="mb-16">
+                <h3 class="text-3xl font-bold text-center text-blue-900 mb-12">Why Choose Arihant Sales?</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex items-center mb-4">
+                            <i data-feather="award" class="w-8 h-8 text-blue-900 mr-3"></i>
+                            <h4 class="text-xl font-semibold">Premium Quality</h4>
+                        </div>
+                        <p class="text-gray-600">Certified high-grade materials and stringent quality control for every product.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex items-center mb-4">
+                            <i data-feather="clock" class="w-8 h-8 text-blue-900 mr-3"></i>
+                            <h4 class="text-xl font-semibold">Quick Delivery</h4>
+                        </div>
+                        <p class="text-gray-600">Efficient logistics ensuring timely delivery of your essential components.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex items-center mb-4">
+                            <i data-feather="users" class="w-8 h-8 text-blue-900 mr-3"></i>
+                            <h4 class="text-xl font-semibold">Expert Support</h4>
+                        </div>
+                        <p class="text-gray-600">Dedicated technical team providing expert guidance and support.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- USP Section -->
+            <div class="bg-blue-900 text-white rounded-xl p-8">
+                <h3 class="text-3xl font-bold text-center mb-12">Our Unique Strengths</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex items-start space-x-4">
+                        <i data-feather="check" class="w-6 h-6 text-blue-300 flex-shrink-0 mt-1"></i>
+                        <div>
+                            <h4 class="font-semibold text-xl mb-2">Comprehensive Product Range</h4>
+                            <p class="text-blue-100">One-stop solution for all rubber machinery components.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <i data-feather="thumbs-up" class="w-6 h-6 text-blue-300 flex-shrink-0 mt-1"></i>
+                        <div>
+                            <h4 class="font-semibold text-xl mb-2">Competitive Pricing</h4>
+                            <p class="text-blue-100">Best-in-class products at industry-leading prices.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <i data-feather="truck" class="w-6 h-6 text-blue-300 flex-shrink-0 mt-1"></i>
+                        <div>
+                            <h4 class="font-semibold text-xl mb-2">Pan-India Delivery</h4>
+                            <p class="text-blue-100">Reliable shipping network across all major industrial hubs.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <i data-feather="award" class="w-6 h-6 text-blue-300 flex-shrink-0 mt-1"></i>
+                        <div>
+                            <h4 class="font-semibold text-xl mb-2">Industry Experience</h4>
+                            <p class="text-blue-100">Over 15 years of expertise in rubber machinery components.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+      <!-- Products Section -->
+     
+
+
+    <section id="products" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <h2 class="text-5xl font-bold text-center text-blue-900 mb-16">Our Product Range</h2>
+            
+            <!-- Rubber Bush Category -->
+            <div class="mb-20">
+                <h3 class="text-3xl font-semibold text-blue-900 mb-8 border-l-4 border-blue-900 pl-4">Rubber Bush Products</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image1.png" alt="Brass Lined Rubber Bush" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Brass Lined Rubber Bush</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image2.png" alt="Black Rubber Bush" class="w-full h-full object-cover ">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Black Rubber Bush</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image3.png" alt="Silicone Rubber Bush" class="w-full h-full object-cover ">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Silicone Rubber Bush</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image4.png" alt="R B Type Bolt Bush Set" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">R B Type Bolt Bush Set</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coupling Category -->
+            <div class="mb-20">
+                <h3 class="text-3xl font-semibold text-blue-900 mb-8 border-l-4 border-blue-900 pl-4">Coupling Products</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- First Row -->
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image5.png" alt="Brass Lined Rubber Bush" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Love Joy Spider Coupling</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image6.png" alt="Black Rubber Bush" class="w-full h-full object-cover ">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">PU Spider Coupling</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image7.png" alt="Silicone Rubber Bush" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Rubber Star Coupling</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image8.png" alt="R B Type Bolt Bush Set" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Star Couplings</h4>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Second Row -->
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image9.png" alt="Spacer Coupling" class="w-full h-full object-cover ">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Rotex Coupling</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image10.png" alt="Gear Coupling" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Gear Coupling</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image11.png" alt="Chain Coupling" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Chain Coupling</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image12.png" alt="Nylon Sleeve Gear Coupling" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Nylon Gear Coupling</h4>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Third Row -->
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image13.png" alt="Jaw Coupling" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Cast Iron tyre Coupling</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image14.png" alt="Grid Coupling" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Synthetic Star Coupling</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image15.png" alt="Disc Coupling" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Love Joy Star Coupling</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image16.png" alt="Flexible Coupling" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">P U Star Coupling</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-20">
+                <h3 class="text-3xl font-semibold text-blue-900 mb-8 border-l-4 border-blue-900 pl-4">Additional Products</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- First Row -->
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image17.png" alt="Brass Lined Rubber Bush" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Glass Tube & Reflex Glass</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image18.png" alt="Black Rubber Bush" class="w-full h-full object-cover ">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Champion PTFE Tape</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image19.png" alt="Silicone Rubber Bush" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Diamond/Renold Chain/Lock</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image20.png" alt="R B Type Bolt Bush Set" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Anti Vibration Pad</h4>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Second Row -->
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image21.png" alt="Spacer Coupling" class="w-full h-full object-cover ">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Cast Nylon Rod</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image22.png" alt="Gear Coupling" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">White Teflon Rod</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image23.png" alt="Chain Coupling" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Rubber Engine Mounting</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition group-hover:scale-105 border-4 border-blue-800">
+                            <div class="relative h-48">
+                                <img src="images/image24.png" alt="Nylon Sleeve Gear Coupling" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h4 class="font-semibold text-lg text-blue-800 mb-2">Borosilicate Glass Tube</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- <section id="contact" class="py-20 flex justify-center">
+        <div class="max-w-4xl w-full px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-16 text-blue-900">Contact Us</h2>
+            <div class="flex justify-center">
+                <div class="bg-white p-8 rounded-xl shadow-lg w-full md:w-3/4 border-2 border-blue-900">
+                    <h3 class="text-2xl font-bold mb-6 text-center">Get in Touch</h3>
+                    <div class="space-y-4 text-center">
+                        <p><strong>Contact Person:</strong> Viral Mehta, Mitesh Mehta, Mit Mehta</p>
+                        <p><strong>Address:</strong> No. 204, Kailashpati Chamber, Rid Road, Near Sunrise Hotel, Kalupur, Ahmedabad - 380001, Gujarat, India</p>
+                        <p><strong>Phone:</strong> +91-9925012891, 9825012891, 9426942891</p>
+                        <p><strong>Email:</strong> arihantsales203@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="contact" class="py-20 bg-gradient-to-br from-gray-100 to-gray-300 relative">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8 text-center relative z-10 ">
+            <h2 class="text-5xl font-extrabold text-blue-900 mb-12">Get in Touch</h2>
+            <div class="bg-white p-6 rounded-xl shadow-xl border-l-4 border-blue-900 hover:scale-105 transition">
+
+                <div class="text-blue-900">
+                    <h3 class="text-3xl font-semibold mb-6">Contact Us</h3>
+                    <p class="text-lg font-medium mb-4"><strong>Contact Person:</strong> Viral Mehta, Mitesh Mehta, Mit Mehta</p>
+                    <p class="text-lg font-medium mb-4"><strong>Address:</strong> No. 204, Kailashpati Chamber, Rid Road, Near Sunrise Hotel, Kalupur, Ahmedabad - 380001, Gujarat, India</p>
+                    <p class="text-lg font-medium mb-4"><strong>Phone:</strong> 
+                        <a href="tel:+919925012891" class="text-blue-700 hover:underline">+91-9925012891</a>, 
+                        <a href="tel:+919825012891" class="text-blue-700 hover:underline">9825012891</a>, 
+                        <a href="tel:+919426942891" class="text-blue-700 hover:underline">9426942891</a>
+                    </p>
+                    <p class="text-lg font-medium mb-4"><strong>Email:</strong> 
+                        <a href="mailto:arihantsales203@gmail.com" class="text-blue-700 hover:underline">arihantsales203@gmail.com</a>
+                    </p>
+                    <p class="text-lg font-medium"><strong>For more info visit :</strong> 
+                        <a href="https://www.indiamart.com/arihant-sales-gujarat/" class="text-blue-700 hover:underline">https://www.indiamart.com/arihant-sales-gujarat/</a>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    
+        <!-- Abstract Shapes for Visual Appeal -->
+        <div class="absolute inset-0 overflow-hidden">
+            <div class="absolute top-10 left-20 w-32 h-32 bg-blue-500 opacity-20 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-10 right-20 w-40 h-40 bg-indigo-500 opacity-20 rounded-full blur-3xl"></div>
+            <div class="absolute top-1/2 left-1/3 w-24 h-24 bg-purple-400 opacity-30 rounded-full blur-3xl"></div>
+        </div>
+    </section>
+    
+    
+    
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p>&copy; 2025 Arihant Sales. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
